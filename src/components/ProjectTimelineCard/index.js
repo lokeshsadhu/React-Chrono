@@ -13,14 +13,14 @@ import {
 } from './styledComponents'
 
 const ProjectTimelineCard = props => {
-  const {ProjectDetails} = props
+  const {projectDetails} = props
   const {
     imageUrl,
     projectTitle,
     description,
     projectUrl,
     duration,
-  } = ProjectDetails
+  } = projectDetails
 
   return (
     <ProjectCardContainer>
